@@ -152,6 +152,7 @@ button:hover span:after {
 #first-body {
     padding-top: 97px;
     padding-bottom: 100px;
+    height: 750px;
     background-color: #F6F5F4;
 }
 
@@ -301,11 +302,11 @@ section .first-content {
 }
 
 .first-body-img {
-    position: absolute;
+    position: relative;
     width: 763px;
     height: 521px;
-    right: 0px;
-    top: 179px;
+    left: 600px;
+    bottom: 500px;
 }
 
 .first-body-img img:nth-child(1) {
