@@ -418,6 +418,23 @@ section .first-content {
     margin-right: 10px;
 }
 
+.second-body-card img{
+    position: relative;
+  animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
 .second-body-pinkbox {
     width: 129px;
     height: 112px;
