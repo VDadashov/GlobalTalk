@@ -54,6 +54,12 @@ header nav .menu .logo {
     color: #000000;
 }
 
+header nav menu hr {
+    width: 0px;
+    height: 16.87px;
+    border: 1.20466px solid #E0E0E0;
+}
+
 header nav ul li {
     display: inline;
     margin-right: 30px;
@@ -304,7 +310,7 @@ section .first-content {
 .first-body-img {
     position: relative;
     width: 763px;
-    height: 521px;
+    height: 582px;
     left: 600px;
     bottom: 500px;
 }
@@ -340,7 +346,7 @@ section .first-content {
 
 /* Second-Section-Start */
 
-#second-body{
+#second-body {
     padding: 77.5px 0;
     background-color: #fff;
 }
@@ -408,7 +414,7 @@ section .first-content {
     padding-bottom: 15px;
 }
 
-.second-body-card span{
+.second-body-card span {
     margin-right: 10px;
 }
 
