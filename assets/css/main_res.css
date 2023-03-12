@@ -14,7 +14,7 @@
     }
 
     header nav .menu {
-        flex-grow: 0.4;
+        flex-grow: 0.43;
         padding-left: 20px;
     }
 
@@ -50,7 +50,6 @@
     .first-body-text .text1 {
         width: 335px;
         height: 12px;
-        font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
         font-size: 12px;
@@ -61,7 +60,6 @@
     .first-body-text .text-strong-1 {
         width: 335px;
         height: 96px;
-        font-family: 'Dela Gothic One';
         font-style: normal;
         font-weight: 400;
         font-size: 32px;
@@ -81,7 +79,6 @@
     .first-content .text2 {
         width: 335px;
         height: 20px;
-        font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
         font-size: 14px;
@@ -194,33 +191,21 @@
     .second-body-text .text3 {
         width: 335px;
         height: 48px;
-
-        font-family: 'Dela Gothic One';
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
         line-height: 100%;
-        /* or 24px */
-
         text-align: center;
         letter-spacing: -0.04em;
-
-        /* Primaty/Black */
-
         color: #000000;
     }
 
     .second-body-text .text4 {
         width: 335px;
         height: 20px;
-
-        font-family: 'Montserrat';
-        font-style: normal;
         font-weight: 600;
         font-size: 14px;
         line-height: 140%;
-        /* identical to box height, or 20px */
-
         text-align: center;
         letter-spacing: -0.04em;
     }
