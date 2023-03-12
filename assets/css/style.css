@@ -23,10 +23,10 @@ header {
 }
 
 header nav {
+    padding: 24px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
 }
 
 header nav .menu {
@@ -49,10 +49,8 @@ header nav .menu .menu-button {
 header nav .menu .logo {
     width: 130px;
     height: 21px;
-    font-family: 'Dela Gothic One', cursive;
+    font: 400 20.8609px 'Dela Gothic One', cursive;
     font-style: normal;
-    font-weight: 400;
-    font-size: 20.8609px;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #000000;
@@ -70,11 +68,8 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-family: var(--mainfamily);
+    font: 600 15px/140% var(--mainfamily);
     font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
     letter-spacing: -0.04em;
     color: #757575;
     text-decoration: none;
@@ -100,11 +95,8 @@ header .register .login {
 header .register .login span {
     width: 51px;
     height: 14px;
-    font-family: var(--mainfamily);
+    font: 700 14px/100% var(--mainfamily);
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 100%;
     letter-spacing: -0.04em;
     color: #000000;
 }
@@ -167,8 +159,6 @@ button:hover span:after {
 }
 
 section .first-content {
-    /* padding-left: 152px; */
-    /* margin: 0 120px; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -186,11 +176,8 @@ section .first-content {
 .first-body-text .text1 {
     width: 225px;
     height: 16px;
-    font-family: 'Montserrat';
+    font: 700 16px/100% 'Montserrat';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 100%;
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: #2B788B;
@@ -199,24 +186,17 @@ section .first-content {
 .first-body-text .text-strong-1 {
     width: 531px;
     height: 201px;
-    font-family: 'Dela Gothic One';
+    font: 400 56px/120% 'Dela Gothic One';
     font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 120%;
     letter-spacing: -0.04em;
     color: #000000;
-
 }
 
 .first-body-text .text2 {
     width: 396.89px;
     height: 50px;
-    font-family: 'Montserrat';
+    font: 600 18px/140% 'Montserrat';
     font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 140%;
     letter-spacing: -0.04em;
     color: #757575;
 }
@@ -239,11 +219,8 @@ section .first-content {
 .first-body-text a span {
     width: 121px;
     height: 16px;
-    font-family: 'Montserrat';
+    font: 700 16px 100% 'Montserrat';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 100%;
     letter-spacing: -0.04em;
     color: #2B788B;
     transition: all 1.4s;
@@ -318,11 +295,8 @@ section .first-content {
 .about-games div p {
     width: 112px;
     height: 22px;
-    font-family: 'Montserrat';
+    font: 600 16px 140% 'Montserrat';
     font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
     letter-spacing: -0.04em;
     color: #585858;
 }
@@ -331,8 +305,6 @@ section .first-content {
     position: relative;
     width: 650px;
     height: 582px;
-    /* left: 600px;
-    bottom: 500px; */
 }
 
 .first-body-img img:nth-child(1) {
@@ -362,8 +334,6 @@ section .first-content {
 
 /* First-Section-End */
 
-
-
 /* Second-Section-Start */
 
 #second-body {
@@ -386,11 +356,8 @@ section .first-content {
 .second-body-text .text3 {
     width: 474.46px;
     height: 96px;
-    font-family: 'Dela Gothic One';
+    font: 400 48px/100% 'Dela Gothic One';
     font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 100%;
     letter-spacing: -0.04em;
     color: #000000;
 }
@@ -398,11 +365,8 @@ section .first-content {
 .second-body-text .text4 {
     width: 396.89px;
     height: 50px;
-    font-family: 'Montserrat';
+    font: 600 18px/140% 'Montserrat';
     font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 140%;
     letter-spacing: -0.04em;
     color: #757575;
 }
@@ -464,11 +428,8 @@ section .first-content {
 }
 
 .first-card-text {
-    font-family: 'Montserrat';
+    font: 700 16px/100% 'Montserrat';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 100%;
     letter-spacing: -0.04em;
     color: #945069;
 }
@@ -480,11 +441,8 @@ section .first-content {
 }
 
 .second-card-text {
-    font-family: 'Montserrat';
+    font: 700 16px/100% 'Montserrat';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 100%;
     letter-spacing: -0.04em;
     color: #2B788B;
 }
