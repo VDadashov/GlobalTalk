@@ -1,5 +1,5 @@
 @media only screen and (max-width:576px) {
-    
+
     /* Header-Responsive-Start */
     header nav .menu .menu-button {
         display: inline-block;
@@ -121,12 +121,12 @@
         letter-spacing: -0.04em;
     }
 
-    .mini-games{
+    .mini-games {
         gap: 0px;
         text-align: center;
     }
 
-    .mini-games .mgames-img{
+    .mini-games .mgames-img {
         justify-content: center;
         gap: 5px;
     }
@@ -162,10 +162,10 @@
 
     .first-body-img img:nth-child(3) {
         position: absolute;
-        width: 182px;
-        height: 276px;
-        left: 195px;
-        top: 0px;
+        width: 162px;
+        height: 242px;
+        left: 196px;
+        top: 40px;
         z-index: 3;
     }
 
@@ -173,52 +173,68 @@
 
     /* Second-Section-Responisive-Start */
 
-    #second-body{
+    #second-body {
         padding-top: 40px;
     }
 
-    .second-content{
+    .second-body-text{
+        align-items: center;
+    }
+
+    .second-content {
         flex-direction: column;
         align-items: center;
     }
 
-    .second-body-img img{
+    .second-body-img img {
         width: 335px;
-    height: 230px;
+        height: 230px;
     }
 
-    .second-body-text .text3{
+    .second-body-text .text3 {
         width: 335px;
-height: 48px;
+        height: 48px;
 
-font-family: 'Dela Gothic One';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 100%;
-/* or 24px */
+        font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        /* or 24px */
 
-text-align: center;
-letter-spacing: -0.04em;
+        text-align: center;
+        letter-spacing: -0.04em;
 
-/* Primaty/Black */
+        /* Primaty/Black */
 
-color: #000000;
+        color: #000000;
     }
 
-    .second-body-text .text4{
+    .second-body-text .text4 {
         width: 335px;
-height: 20px;
+        height: 20px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 140%;
-/* identical to box height, or 20px */
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        /* identical to box height, or 20px */
 
-text-align: center;
-letter-spacing: -0.04em;
+        text-align: center;
+        letter-spacing: -0.04em;
+    }
+    
+    .second-body-card{
+        margin-left: 20px;
+    }
+
+    .second-body-pinkbox{
+        width: 133px;
+    }
+
+    .second-body-cyanbox{
+        width: 170px;
     }
 
     /* Second-Section-Responsive-End */
