@@ -42,7 +42,7 @@ header nav .register {
     justify-content: space-between;
 }
 
-header nav .menu .fa-bars{
+header nav .menu .menu-button {
     display: none;
 }
 
@@ -162,12 +162,15 @@ button:hover span:after {
 #first-body {
     padding-top: 97px;
     padding-bottom: 100px;
-    height: 750px;
+    height: 100%;
     background-color: #F6F5F4;
 }
 
 section .first-content {
-    padding-left: 152px;
+    /* padding-left: 152px; */
+    /* margin: 0 120px; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .first-body-text {
@@ -191,6 +194,19 @@ section .first-content {
     letter-spacing: 0.14em;
     text-transform: uppercase;
     color: #2B788B;
+}
+
+.first-body-text .text-strong-1 {
+    width: 531px;
+    height: 201px;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #000000;
+
 }
 
 .first-body-text .text2 {
@@ -284,7 +300,7 @@ section .first-content {
     display: flex;
     align-items: center;
     padding: 0px;
-    gap: 15px;
+    gap: 10px;
     width: 163px;
     height: 40px;
 }
@@ -313,10 +329,10 @@ section .first-content {
 
 .first-body-img {
     position: relative;
-    width: 763px;
+    width: 650px;
     height: 582px;
-    left: 600px;
-    bottom: 500px;
+    /* left: 600px;
+    bottom: 500px; */
 }
 
 .first-body-img img:nth-child(1) {
@@ -422,22 +438,24 @@ section .first-content {
     margin-right: 10px;
 }
 
-.second-body-card img{
+.second-body-card img {
     position: relative;
-  animation: moveUpDown 2s ease-in-out infinite;
+    animation: moveUpDown 2s ease-in-out infinite;
 }
 
 @keyframes moveUpDown {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
+
     50% {
-      transform: translateY(-20px);
+        transform: translateY(-20px);
     }
+
     100% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  }
+}
 
 .second-body-pinkbox {
     width: 129px;

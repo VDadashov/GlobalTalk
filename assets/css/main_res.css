@@ -1,0 +1,170 @@
+@media only screen and (max-width:576px) {
+    
+    /* Header-Responsive-Start */
+    header nav .menu .menu-button {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+
+    }
+
+    header nav .menu ul,
+    header nav .menu hr {
+        display: none;
+    }
+
+    header nav .menu {
+        flex-grow: 0.4;
+        padding-left: 20px;
+    }
+
+    header nav .menu .logo {
+        width: 122.98px;
+        height: 16px;
+    }
+
+    header nav .register {
+        justify-content: space-evenly;
+        position: fixed;
+        bottom: 0px;
+        z-index: 999;
+        width: 100%;
+    }
+
+    /* Header-Responsive-End */
+
+    /* First-Section-Responsive-Start */
+
+    #first-body {
+        padding-top: 50px;
+    }
+
+    .first-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-body-text .text1 {
+        width: 335px;
+        height: 12px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .first-body-text .text-strong-1 {
+        width: 335px;
+        height: 96px;
+        font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #000000;
+    }
+
+    .first-body-text {
+        align-items: center;
+        width: 100%;
+        height: 420px;
+        gap: 33.78px;
+    }
+
+    .first-content .text2 {
+        width: 335px;
+        height: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #757575;
+    }
+
+    .popular-words {
+        gap: 0px;
+        width: 130px;
+    }
+
+    .popular-words .pwords-img img:nth-child(1) {
+        width: 12.8px;
+        height: 20px;
+    }
+
+    .popular-words .pwords-img img:nth-child(2) {
+        width: 65px;
+        height: 20px;
+    }
+
+    .popular-words .pwords-img {
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .about-games div p {
+        width: 84px;
+        height: 17px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 140%;
+        letter-spacing: -0.04em;
+    }
+
+    .mini-games{
+        gap: 0px;
+        text-align: center;
+    }
+
+    .mini-games .mgames-img{
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .mini-games .mgames-img img:nth-child(1) {
+        width: 16px;
+        height: 23px;
+    }
+
+    .mini-games .mgames-img img:nth-child(2) {
+        width: 28px;
+        height: 22px;
+    }
+
+    .first-body-img {
+        width: 335px;
+        height: 280px;
+    }
+
+    .first-body-img img:nth-child(1) {
+        width: 78px;
+        height: 93px;
+        z-index: 1;
+        top: 70px;
+        left: 30px;
+    }
+
+    .first-body-img img:nth-child(2) {
+        width: 278.79px;
+        height: 236px;
+        z-index: 2;
+    }
+
+    .first-body-img img:nth-child(3) {
+        position: absolute;
+        width: 182px;
+        height: 276px;
+        left: 195px;
+        top: 0px;
+        z-index: 3;
+    }
+
+    /* First-Section-Responsive-End */
+}
