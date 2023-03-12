@@ -1,5 +1,7 @@
 @media only screen and (max-width:992px){
-
+    header nav .menu span{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:768px){
@@ -7,5 +9,7 @@
 }
 
 @media only screen and (max-width:576px){
-
+    header nav .menu span{
+        display: inline;
+    }
 }

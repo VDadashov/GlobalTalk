@@ -42,6 +42,10 @@ header nav .register {
     justify-content: space-between;
 }
 
+header nav .menu .fa-bars{
+    display: none;
+}
+
 header nav .menu .logo {
     width: 130px;
     height: 21px;
@@ -290,8 +294,8 @@ section .first-content {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 10px;
-    width: 90px;
+    gap: 15px;
+    width: 100px;
     height: 40px;
 }
 
