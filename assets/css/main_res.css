@@ -24,11 +24,10 @@
     }
 
     header nav .register {
-        justify-content: center;
+        justify-content: space-evenly;
         position: fixed;
         bottom: 15px;
         z-index: 999;
-        gap: 50px;
         width: 100%;
     }
 
@@ -223,4 +222,39 @@
     }
 
     /* Second-Section-Responsive-End */
+
+    /* Footer-Responsive-Start */
+
+    .container{
+        max-width: 90%;
+    }
+
+    footer{
+        height: 370px;
+    }
+
+    .footer-menu{
+        padding: 0 20px;
+        height: 160px;
+    }
+
+
+    .footer-menu ul{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer-menu ul:nth-child(1){
+        width: 280px;
+    }
+    .footer-bottom{
+        height: 48px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    /* Footer-Responsive-End*/
 }
