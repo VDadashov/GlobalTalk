@@ -14,7 +14,7 @@
     }
 
     header nav .menu {
-        flex-grow: 0.43;
+        flex-grow: 0.38;
         padding-left: 20px;
     }
 
@@ -24,11 +24,15 @@
     }
 
     header nav .register {
-        justify-content: space-evenly;
+        justify-content: space-around;
         position: fixed;
         bottom: 15px;
         z-index: 999;
         width: 100%;
+    }
+
+    header nav .register button{
+        margin-right: 30px;
     }
 
     /* Header-Responsive-End */
@@ -115,6 +119,7 @@
         font-size: 12px;
         line-height: 140%;
         letter-spacing: -0.04em;
+        text-align: center;
     }
 
     .mini-games {
@@ -249,7 +254,7 @@
         width: 280px;
     }
     .footer-bottom{
-        height: 48px;
+        height: 55px;
         flex-direction: column;
         align-items: center;
 

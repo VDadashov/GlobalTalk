@@ -220,7 +220,7 @@ section .first-content {
 .first-body-text a span {
     width: 121px;
     height: 16px;
-    font: 700 16px 100% var(--mainfamily);
+    font: 700 16px/100% var(--mainfamily);
     font-style: normal;
     letter-spacing: -0.04em;
     color: #2B788B;
@@ -400,7 +400,7 @@ section .first-content {
 }
 
 .second-body-card span {
-    margin-right: 10px;
+    margin-right: 7px;
 }
 
 .second-body-card img {
