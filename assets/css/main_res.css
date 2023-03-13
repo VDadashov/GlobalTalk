@@ -24,11 +24,15 @@
     }
 
     header nav .register {
-        justify-content: space-around;
+        justify-content: space-evenly;
         position: fixed;
         bottom: 15px;
         z-index: 999;
-        width: 100%;
+        width: 90%;
+    }
+
+    header nav .register .sign-in{
+        width: 110px;
     }
 
     header nav .register button{
@@ -239,7 +243,7 @@
     }
 
     .footer-menu{
-        padding: 0 20px;
+        padding: 0 30px;
         height: 160px;
     }
 

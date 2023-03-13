@@ -403,6 +403,7 @@ section .first-content {
     margin-right: 7px;
 }
 
+
 .second-body-card img {
     position: relative;
     animation: moveUpDown 2s ease-in-out infinite;
